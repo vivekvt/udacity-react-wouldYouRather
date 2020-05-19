@@ -5,8 +5,8 @@ import {Redirect} from 'react-router-dom';
 
 class NewQuestion extends React.Component {
     state={
-        optionOne:'React',
-        optionTwo:'Angular',
+        optionOne:'',
+        optionTwo:'',
         toHome:false,
     }
     handleChange=(e)=>{

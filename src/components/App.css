@@ -1,0 +1,287 @@
+/* Common */
+
+.clear-float {
+    clear: both;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+
+/* Login */
+
+.login-div {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.login-div select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #DE2668;
+    background-position: center right;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 200px;
+    height: 40px;
+}
+
+.login-div button {
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    height: 40px;
+    min-width: 200px;
+    background-color: #3577D2;
+    color: white;
+}
+
+.login-div button:hover {
+    background-color: rgb(29, 81, 155);
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #3577D2;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav ul {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.nav li:first-child {
+    padding-left: 0px;
+}
+
+.nav li {
+    padding-left: 20px;
+}
+
+.nav-logout {
+    float: right;
+    margin-top: 9px;
+    color: white;
+}
+
+.nav-logout button {
+    cursor: pointer;
+    background-color: white;
+    color: #3577D2;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.nav-logout button:hover {
+    background-color: rgb(207, 198, 198);
+}
+
+
+/* Home  */
+
+.toggle-questions {
+    text-align: center;
+}
+
+.toggle-questions li {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    background-color: rgb(91, 137, 202);
+    padding: 10px 20px;
+}
+
+.toggle-questions li:hover {
+    background-color: rgb(33, 95, 182);
+}
+
+.toggle-questions li:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.toggle-questions li:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/* question */
+
+.question-card {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    color: #4a4a4a;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.question-card-header {
+    background-color: #EEEEEE;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.question-card-image {
+    width: 60px;
+    float: left;
+}
+
+.question-card-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.question-card-author {
+    width: calc(100% - 60px);
+    float: left;
+    /* background-color: red; */
+    padding-left: 10px;
+    margin-top: -8px;
+}
+
+.question-card-option {
+    color: white;
+    width: calc(50% - 4px);
+    float: left;
+    background-color: #DE2668;
+    text-align: center;
+    margin: 2px;
+    padding: 20px 0;
+    border-radius: 5px;
+    height: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    .question-card-option {
+        width: calc(100% - 4px);
+    }
+    .question-card-answer {
+        width: 100% !important;
+    }
+}
+
+.question-card-option:first-child {
+    background-color: #54B8CC !important;
+}
+
+.question-card-answer {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #60B766;
+    padding: 20px 0;
+    border-radius: 50px;
+    width: 50%;
+    margin: 10px auto 0;
+    text-decoration: none;
+}
+
+.question-card-answer:hover {
+    background-color: #3a953a;
+}
+
+
+/* New Question */
+
+@media only screen and (max-width: 600px) {
+    .new-question-input {
+        width: calc(100% - 4px) !important;
+    }
+}
+
+.new-question-input {
+    width: calc(50% - 4px);
+    float: left;
+    text-align: center;
+    margin: 2px;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.new-question-card-answer {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #60B766;
+    padding: 20px 0;
+    border-radius: 50px;
+    width: 50%;
+    margin: 10px auto 0;
+    text-decoration: none;
+    border: none;
+}
+
+.new-question-card-answer:hover {
+    background-color: #3a953a;
+}
+
+
+/* answered */
+
+.poll-outer {
+    background-color: black !important;
+    margin: 10px 10px;
+    border-radius: 5px;
+    /* color: black; */
+    height: 30px;
+    padding: 2px;
+}
+
+.poll-inner {
+    background-color: white !important;
+    border-radius: 5px;
+    color: #3577D2;
+    height: inherit;
+    height: 26px;
+    font-weight: bold;
+    padding-top: 3.5px;
+}

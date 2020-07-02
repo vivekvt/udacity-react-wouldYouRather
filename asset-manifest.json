@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/udacity-react-wouldYouRather/static/css/main.33c3e963.chunk.css",
+    "main.js": "/udacity-react-wouldYouRather/static/js/main.90348b09.chunk.js",
+    "main.js.map": "/udacity-react-wouldYouRather/static/js/main.90348b09.chunk.js.map",
+    "runtime-main.js": "/udacity-react-wouldYouRather/static/js/runtime-main.29c5d3f7.js",
+    "runtime-main.js.map": "/udacity-react-wouldYouRather/static/js/runtime-main.29c5d3f7.js.map",
+    "static/js/2.7d637012.chunk.js": "/udacity-react-wouldYouRather/static/js/2.7d637012.chunk.js",
+    "static/js/2.7d637012.chunk.js.map": "/udacity-react-wouldYouRather/static/js/2.7d637012.chunk.js.map",
+    "index.html": "/udacity-react-wouldYouRather/index.html",
+    "precache-manifest.28cf3881699ecbaede25a74b24b94406.js": "/udacity-react-wouldYouRather/precache-manifest.28cf3881699ecbaede25a74b24b94406.js",
+    "service-worker.js": "/udacity-react-wouldYouRather/service-worker.js",
+    "static/css/main.33c3e963.chunk.css.map": "/udacity-react-wouldYouRather/static/css/main.33c3e963.chunk.css.map",
+    "static/js/2.7d637012.chunk.js.LICENSE.txt": "/udacity-react-wouldYouRather/static/js/2.7d637012.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29c5d3f7.js",
+    "static/js/2.7d637012.chunk.js",
+    "static/css/main.33c3e963.chunk.css",
+    "static/js/main.90348b09.chunk.js"
+  ]
+}
